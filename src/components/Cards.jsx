@@ -4,9 +4,10 @@ const Cards =()=>{
     return(
 
        <>
-         <h3>seccion de tarjetas</h3>
+        
 
-         
+        <div className="m-5"> 
+
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <img class="rounded-t-lg" src="https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg" alt="" />
@@ -25,7 +26,7 @@ const Cards =()=>{
 </div>
 
 
-
+</div>
 
        </> 
     )

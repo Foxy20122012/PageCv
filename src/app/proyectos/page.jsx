@@ -1,11 +1,12 @@
-
+import Reloj from "@/src/components/Reloj"
+import Image from '../../components/Image'
 const Proyectos=()=>{
     return(
         <>
-            <h2 className="text-center text-cyan-300 underline-offset-1 underline">Esta será la sección de proyectos</h2>
-
-            <p className="text-center ">En esta sección de proyectos puedes visualizar algunos proyectos de muestras basicos
-                 que he trabajado con diferentes herramientas de desarrollo y lenguajes de programación </p>
+            <Image  className="bg-white" imageUrl='https://gestion.pensemos.com/hubfs/Blog_Pensemos_707x282_23-jpg.jpeg'>
+                <h1 className="text-5xl m-20">Bienvenido a mi apartado de proyectos</h1>
+                <h1 className='Text-center m-20 text-5xl'> Aca podras examinar algunos proyectos base que he preparado para poder evaluar el entorno de desarrollo</h1>
+                </Image>
         </>
     )
 }
