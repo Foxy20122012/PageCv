@@ -12,3 +12,11 @@
     transform: translateX(-200%);
   }
   
+
+  @layer components{
+    .btn{
+      @apply bg-[#ff4D41] text-white py-2 rounded inline-block mt-10
+      font-medium border-[#ff4D41] hover:bg-transparent hover:text-[#ff4D41]
+      transition duration-200
+    }
+  }

@@ -18,7 +18,7 @@ const Navigation =()=>{
         </a>
         <div class="flex items-center">
             <a href="tel:30577089" class="mr-6 text-sm font-medium text-gray-500 dark:text-white hover:underline">(502) 3057-7089</a>
-            <a href="#" class="flex border border-[#ff4D41] px-4 py-1 text-red-500 rounded-full items-center gap-2 hover:bg-red-500 hover:underline hover:text-white transition animate-bounce">Descargar Cv <HiOutlineDocumentDownload/></a>
+            <a href="./CV MIGUEL ENRIQUE ALVAREZ MERLOS.pdf" download class="flex border border-[#1a30f5] px-4 py-1 text-[#0b3ed9dd] rounded-full items-center gap-2 hover:bg-blue-700 hover:underline hover:text-white transition animate-bounce">Descargar Cv <HiOutlineDocumentDownload/></a>
         </div>
     </div>
 </nav>
@@ -28,20 +28,25 @@ const Navigation =()=>{
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
                 <li>
                     <a href="/" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
-                      </li>
+                 </li>
+                <li>
+                    <a href="/acerca" class="text-gray-900 dark:text-white hover:underline">Acerca</a>
+                </li>
+                
                       <li>
-                    <a href="herramientas" class="text-gray-900 dark:text-white hover:underline">Herramientas</a>
+                    <a href="/perfil" class="text-gray-900 dark:text-white hover:underline">Perfil</a>
+                </li>
+                      <li>
+                    <a href="/herramientas" class="text-gray-900 dark:text-white hover:underline">Herramientas</a>
                 </li>
                     <li>
                     
                     <a href="/proyectos" class="text-gray-900 dark:text-white hover:underline">Proyectos</a>
                 </li>
-                <li>
-                    <a href="/experiencia" class="text-gray-900 dark:text-white hover:underline">Experiencia</a>
-                </li>
+                
                 
                 <li>
-                    <a href="contactame" class="text-gray-900 dark:text-white hover:underline">Contactame</a>
+                    <a href="/contactame" class="text-gray-900 dark:text-white hover:underline">Contactame</a>
                 </li>
                 
             </ul>

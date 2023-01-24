@@ -7,7 +7,7 @@ const Herramientas =()=>{
     return (
         <>
 
-<Image  className="bg-white" imageUrl='https://talently.tech/blog/wp-content/uploads/2022/01/Programa-con-R-scaled.jpg'>
+<Image  className="bg-white" imageUrl='https://desarrolloweb.com/storage/tag_images/actual/RMhVjjVD4x1sL1vNnEx6BBFITf9eaEPedch3nfqs.png'>
                 <h1 className="text-5xl m-20">Bienvenido a mi apartado de Herramientas</h1>
                 <h1 className='Text-center m-20 text-5xl'> Aca podras examinar algunos proyectos base que he preparado para poder evaluar el entorno de desarrollo</h1>
                 </Image>
