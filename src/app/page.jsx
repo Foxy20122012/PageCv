@@ -16,10 +16,8 @@ const Home = () => {
                     <h2 className='text-5xl m-20 text-center justify-center '>Frontend Developer</h2>
                
                 <div className='bg-[#0A4FF9] h-[3px] w-[120px]'></div> 
-                    <p  className='text-[center] m-10'>Hola soy Enrique Merlos 
-                    
-                    </p>
-
+                    <h2  className='text-[center] m-10 text-2xl'>Hola soy Enrique Merlos </h2>
+                   <p className='text-center m-10  '>Mucho gusto</p> 
             
                 <Button ><h1>Leer mas</h1></Button>
                 </div>

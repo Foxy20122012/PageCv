@@ -17,7 +17,7 @@ const Navigation =()=>{
             <span class="self-center text-xl font-semibold whitespace-nowrap text-[24px] dark:text-white ">Enrique Merlos  </span>
         </a>
         <div class="flex items-center">
-            <a href="tel:30577089" class="mr-6 text-sm font-medium text-gray-500 dark:text-white hover:underline">(502) 3057-7089</a>
+            <a href="tel:30577089" class="mr-6 text-base font-medium text-gray-500  dark:text-white hover:underline">(502) 3057-7089</a>
             <a href="./CV MIGUEL ENRIQUE ALVAREZ MERLOS.pdf" download class="flex border border-[#1a30f5] px-4 py-1 text-[#0b3ed9dd] rounded-full items-center gap-2 hover:bg-blue-700 hover:underline hover:text-white transition animate-bounce">Descargar Cv <HiOutlineDocumentDownload/></a>
         </div>
     </div>
