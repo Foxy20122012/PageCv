@@ -104,8 +104,10 @@ Division de Sección
   imageUrl='https://www.pngitem.com/pimgs/m/718-7189867_oracle-logo-png-transparent-png.png'
   imageAlt='Oracle'
   title='Oracle'
-  description='Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
-  linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
+  description='Oracle se encarga de la gestión de bases de datos, la gestión del almacenamiento, la alta 
+  disponibilidad y la escalabilidad, lo que ayuda a los desarrolladores a concentrarse en la entrega de 
+  saplicaciones de alto rendimiento.'
+  linkUrl='https://www.oracle.com/lad/'
 />
 <Cards
   imageUrl='https://miro.medium.com/max/1400/1*oBm_3saYz4AI_MS6OekdFQ.png'
@@ -127,27 +129,60 @@ Division de Sección
   imageUrl='https://significado.com/img/tecnologia/linux-pinguino-tecnologia.jpg'
   imageAlt='Gnu'
   title='Sistemas Gnu/Linux'
-  description='Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
-  linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
+  description='GNU/Linux, ​ es un sistema operativo tipo Unix compuesto por software libre y de
+   código abierto.​ GNU/Linux surge de las contribuciones de varios proyectos de software, entre
+    los cuales destacan GNU y el kernel «Linux».​'
+  linkUrl='https://aulasoftwarelibre.github.io/install-party-doc/GNU-linux/definition/'
 />
 <Cards
   imageUrl='https://res.cloudinary.com/practicaldev/image/fetch/s--ummPlX9Q--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/2y7xmc8sqyjfbwjicul7.png'
   imageAlt='Sql'
   title='MySQL'
-  description='Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
-  linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
+  description='MySQL Workbench es una herramienta visual de diseño de bases de datos que integra desarrollo de software,
+   administración de bases de datos, diseño de bases de datos, gestión y mantenimiento para el sistema de base de datos MySQL.'
+  linkUrl='https://www.mysql.com/products/workbench/'
 />
 <Cards 
   imageUrl='https://miro.medium.com/max/480/1*MGcLJS1ZvMFcBA94PXn16Q.png'
   imageAlt='Vscode'
   title='Visual Studio Code'
-  description='Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.'
-  linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
+  description='Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web.
+   Incluye soporte para la depuración, control integrado
+   de Git, resaltado de sintaxis, finalización inteligente de código, fragmentos y refactorización de código.'
+  linkUrl='https://code.visualstudio.com/'
 />
 </div>
 
+<div className="flex justify-center text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Proximamente Nuevas Herramientas...</h1>
+  
+</div>
+    <p className="mb-2 text-2xl tracking-tight font-extrabold text-center text-gray-900">Actualmente se siguen aprendiendo nuestros conocimientos en diferentes
+     entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. 
+     entre los cuales destacan los siguientes mostrados.
+     Dichos conocimientos estan actualmente en formación.
+     </p>
+     <div className="flex justify-center ">
+            <Cards
+  imageUrl='https://www.qualitydevs.com/wp-content/uploads/2021/05/PHP-Quality-Devs-1-1288x724.jpg'
+  imageAlt='php'
+  title='Php'
+  description='PHP es un lenguaje de programación interpretado​ del lado del servidor y de uso general que se
+   adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf
+    en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group​'
+  linkUrl='https://www.php.net/manual/es/intro-whatis.php'
+/>
+<Cards
+  imageUrl='https://pantheon.io/sites/default/files/field/image/TypeScriptImage.jpeg'
+  imageAlt='typescript'
+  title='Typescript'
+  description='TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft.
+   Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases. Anders Hejlsberg,
+    diseñador de C# y creador de Delphi y Turbo Pascal, ha trabajado en el desarrollo de TypeScript.'
+    linkUrl='https://www.typescriptlang.org/'
+/>
 
-    
+</div>
         </>
     )
 }
