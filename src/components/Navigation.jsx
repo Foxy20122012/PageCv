@@ -13,7 +13,7 @@ const Navigation =()=>{
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="https://www.linkedin.com/in/miguel-enrique-alvarez-merlos-9b6703248" class="flex items-center">
-            <img  src="https://media.licdn.com/dms/image/C4E22AQGXWFBug92P0Q/feedshare-shrink_2048_1536/0/1674278531726?e=1677110400&v=beta&t=1fPOrbTxl9Tp31j4R2PQ2zqR_F5pz8Z3a0g0-5qFv84" class="h-6 mr-3 sm:h-9 rounded" alt="Flowbite Logo" />
+            <img  src="https://media.licdn.com/dms/image/D4E22AQF9c5almTdLqQ/feedshare-shrink_800/0/1674802038718?e=1677715200&v=beta&t=7e79zqXJSDQVMKykHIDrQHOUwK0UNvlWwhGJdafJLMI" class="h-6 mr-3 sm:h-9 rounded" alt="Flowbite Logo" />
             <span class="self-center text-xl font-semibold whitespace-nowrap text-[24px] dark:text-white ">Enrique Merlos  </span>
         </a>
         <div class="flex items-center">
