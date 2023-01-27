@@ -14,12 +14,17 @@ const Acerca =({title})=>{
 
         <>
         <Image  className="bg-white" imageUrl='https://talently.tech/blog/wp-content/uploads/2022/01/Programa-con-R-scaled.jpg'>
-                <h1 className="text-5xl m-20">Bienvenido en este apartado te contare un poco sobre mi persona</h1>
-                <h1 className='Text-center m-20 text-5xl'> Aca podras examinar algunos proyectos base que he preparado para poder evaluar el entorno de desarrollo</h1>
+            
+                <h1 className="text-5xl m-24">Hola, soy Enrique. Encantado de conocerlo.</h1>
+                <h1 className='text-center m-20 text-2xl  font-medium leading-tight text-[#ffffff]'> Actualmente estoy estudiando Ingenieria en Sistemas 
+                y estoy interesado en aprender más sobre las últimas tendencias y tecnologías en el campo. Mi objetivo es convertirme en un desarrollador web
+                 altamente capacitado y contribuir a proyectos emocionantes. En mi tiempo libre, me gusta aprender nuevas habilidades y conocer nuevas tecnologías 
+                 y tendencias en el campo del desarrollo web, así como también tener nuevas experiencias y aprender de ellas. Si deseas saber más sobre mí, no dudes 
+                 en visitar mi portafolio y mis redes sociales.</h1>
                 </Image>
            
            
-            <h2 className="text-center underline text-pink-400 ">Esta es la sección donde conoceras mas sobre mi persona</h2>
+           
         
         <section className="container mx-auto py-10 px-4">
             <Titulo title="Acerca de mi"/> 

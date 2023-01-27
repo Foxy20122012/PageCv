@@ -3,25 +3,32 @@ import Image from "@/src/components/Image"
 
 
 
+
 const Herramientas =()=>{
     return (
         <>
 
-<Image  className="bg-white" imageUrl='https://desarrolloweb.com/storage/tag_images/actual/RMhVjjVD4x1sL1vNnEx6BBFITf9eaEPedch3nfqs.png'>
+<Image  className="bg-white" imageUrl='https://img.freepik.com/vector-premium/concepto-banner-web-desarrollo-frontend-interfaz-sitio-web_277904-4191.jpg?w=2000'>
                 <h1 className="text-5xl m-20">Bienvenido a mi apartado de Herramientas</h1>
-                <h1 className='Text-center m-20 text-5xl'> Aca podras examinar algunos proyectos base que he preparado para poder evaluar el entorno de desarrollo</h1>
+                <h1 className="text-center m-20 text-2xl  font-medium leading-tight text-[#ffffff] ">"Bienvenido querido usuario,
+                aquí podrás conocer algunos de los lenguajes de programación, entornos de desarrollo, herramientas, frameworks y gestores de bases
+                 de datos con los que he tenido la oportunidad de trabajar y aprender durante mi formación como estudiante de Ingeniería en Sistemas.
+                  Aunque soy un estudiante, estoy comprometido a seguir aprendiendo y mejorando mis habilidades para convertirme en un desarrollador
+                   web cada vez más eficiente. ¡Espero que disfrutes explorando mis habilidades y herramientas!"</h1>
                 </Image>
-            <h1 className="text-center underline text-black m-5 text-2xl">Esta será nuestra sección de herramientas</h1>
 
-        <div className="flex justify-center ">
+            
+
+        <div className="flex justify-center m-14 ">
             <Cards
   imageUrl='https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg'
   imageAlt='Javascript'
   title='Javascript'
   description='JavaScript es un lenguaje de programación interpretado, dialecto del estándar 
    ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado 
-   y dinámico.s://developer.mozilla.org/es/docs/Web
-   /JavaScript'
+   y dinámico.JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas
+    web interactivas.'
+   linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
 />
 
 
@@ -48,11 +55,9 @@ const Herramientas =()=>{
 
 </div>
 
-<div className="text-center bg-teal-400">
-Division de Sección 
-</div>
+        <div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
 
-<div className="flex justify-center ">
+<div className="flex justify-center m-14 ">
             <Cards
   imageUrl='https://cronuts.digital/wp-content/uploads/2020/04/Artboard-11-1024x724.png'
   imageAlt='Css'
@@ -84,11 +89,9 @@ Division de Sección
 
 </div>
 
-<div className="text-center bg-teal-400">
-Division de Sección 
-</div>
+<div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
 
-<div className="flex justify-center ">
+<div className="flex justify-center m-14">
             <Cards
   imageUrl='https://www.freecodecamp.org/news/content/images/2022/07/git-github.png'
   imageAlt='Git'
@@ -120,11 +123,10 @@ Division de Sección
 />
 
 </div>
-<div className="text-center bg-teal-400">
-Division de Sección 
-</div>
 
-<div className="flex justify-center ">
+<div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
+
+<div className="flex justify-center m-14 ">
             <Cards
   imageUrl='https://significado.com/img/tecnologia/linux-pinguino-tecnologia.jpg'
   imageAlt='Gnu'
@@ -154,15 +156,16 @@ Division de Sección
 </div>
 
 <div className="flex justify-center text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-  <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Proximamente Nuevas Herramientas...</h1>
+  <h1 className="text-2xl font-medium text-center hover:underline">Proximamente Nuevas Herramientas...</h1>
   
 </div>
-    <p className="mb-2 text-2xl tracking-tight font-extrabold text-center text-gray-900">Actualmente se siguen aprendiendo nuestros conocimientos en diferentes
-     entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. 
-     entre los cuales destacan los siguientes mostrados.
-     Dichos conocimientos estan actualmente en formación.
+    <p className="text-base leading-relaxed text-center text-gray-900 hover:underline">"Actualmente se siguen aprendiendo 
+    nuestros conocimientos en diferentes entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. Entre los 
+    cuales destacan los siguientes mostrados en este apartado. Dichos conocimientos están actualmente en formación y estamos ansiosos de poder
+     compartirlos con ustedes próximamente. Por favor, no dude en ponerse en contacto con nosotros si tiene alguna pregunta o si está interesado 
+     en trabajar juntos en un futuro proyecto.".
      </p>
-     <div className="flex justify-center ">
+     <div className="flex justify-center m-14 ">
             <Cards
   imageUrl='https://www.qualitydevs.com/wp-content/uploads/2021/05/PHP-Quality-Devs-1-1288x724.jpg'
   imageAlt='php'
