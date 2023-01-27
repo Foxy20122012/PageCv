@@ -26,10 +26,7 @@ const Proyectos=()=>{
          imageUrl='https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png'
          imageAlt='Github'
          title='Github'
-         description='GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones
-          Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software
-           que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub,
-            Inc.' 
+         description='Este es el enlace a mi perfil de Github donde donde podras examinar los repositorios de los proyectos mas a detalle.' 
           linkUrl='https://github.com/Foxy20122012'
          />
         </div>

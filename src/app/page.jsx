@@ -18,7 +18,8 @@ const Home = () => {
                 <div className='bg-[#0A4FF9] h-[3px] w-[120px]'></div> 
                     <h2  className='text-[center] m-10 text-2xl'>Hola soy Enrique Merlos </h2>
                    <p className='text-center m-10  '>Mucho gusto</p> 
-            
+                   <p className='text-center m-10  '>Soy un estudiante de Ingeniería en Sistemas y Desarrollador Web.
+                   He estado estudiando y practicando las habilidades necesarias para ser un desarrollador frontend</p>
                 <Button ><h1>Leer mas</h1></Button>
                 </div>
               
@@ -26,7 +27,7 @@ const Home = () => {
             
             
 
-            <h2 className='text-center text-5xl m-10 font-bol italic'>Hello Esta es una prueba del texto</h2>
+            
             
         </div>
     )

@@ -71,7 +71,7 @@ const Acerca =({title})=>{
                             <div className="flex flex-col gap-6 text-gray-600  ">
                                 <div className="flex fap-4 items-center font-medium m-2">Enrique Alvarez Merlos</div>
                                 <div className="flex fap-4 items-center font-medium m-2 ">22 Años</div>
-                                <div className="flex fap-4 items-center font-medium m-2 ">Desarrllo De Software</div>
+                                <div className="flex fap-4 items-center font-medium m-2 ">Programación </div>
                                 <div className="flex fap-4 items-center font-medium m-2 ">Ingenieria En Sistemas</div>
                                 <div className="flex fap-4 items-center font-medium m-2 ">Guatemala</div>
                                 <div className="flex fap-4 items-center font-medium m-2">enriquemerlos78@gmail.com</div>
