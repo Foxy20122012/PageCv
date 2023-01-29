@@ -32,7 +32,7 @@ const Acerca =({title})=>{
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
 
                 <div>
-                    <img className="w-[400px]" src="https://scontent.fgua3-5.fna.fbcdn.net/v/t39.30808-6/327446458_1395634707870073_965106594474687045_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=-SIdoI7UG9kAX-HybP8&_nc_ht=scontent.fgua3-5.fna&oh=00_AfC6ZJmhYtMJr1Y0D0CpXbgSYQ70jDnB-OoHcxETui5TYg&oe=63D39B9B" alt=""/>
+                    <img className="w-[400px]" src="./326966218_885398379440507_6325353439616057798_n (1).jpg" alt=""/>
                 </div>
 
             <div>

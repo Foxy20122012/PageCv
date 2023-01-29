@@ -23,7 +23,7 @@ const Proyectos=()=>{
         </div>
         <div className=' flex   justify-center '>
                 <Cards 
-         imageUrl='https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png'
+         imageUrl='https://www.freecodecamp.org/news/content/images/2022/07/git-github.png'
          imageAlt='Github'
          title='Github'
          description='Este es el enlace a mi perfil de Github donde donde podras examinar los repositorios de los proyectos mas a detalle.' 
