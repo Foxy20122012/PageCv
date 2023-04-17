@@ -1,3 +1,4 @@
+import Card2 from "@/src/components/Card2"
 import Image from "@/src/components/Image"
 import Titulo from "@/src/components/Titulo"
 
@@ -15,58 +16,60 @@ return (
              <Titulo  title="Educación"/>
 
             <div className="flex justify-center m-14">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
+             <Card2
+             imageUrl="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg"
+             imageAlt="Repacion de computadoras"
+             Descripcion="Tecnico en reparacion de computadoras y soporte de software"
+             DescripcionMobile="Tecnico en reparacion de computadoras"
+             />
+                <Card2
+             imageUrl="https://escueladeposgrado.edu.pe/wp-content/uploads/2020/11/Importancia-de-los-Sistema-de-Informacion-en-una-empresa-scaled.jpg"
+             imageAlt="Ingenieria en Sistemas De La Informacion y Ciencias De La Computación"
+             Descripcion="Ingenieria en Sistemas De La Informacion y Ciencias De La Computación"
+             DescripcionMobile="Ingenieria en Sistemas De La Información"
+             />
 
-                <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Tecnico en reparacion de computadoras y soporte de software.</div>
-            </div>
-
-
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg " src="https://escueladeposgrado.edu.pe/wp-content/uploads/2020/11/Importancia-de-los-Sistema-de-Informacion-en-una-empresa-scaled.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Ingenieria en Sistemas De La Informacion y Ciencias De La Computación</div>
-            </div>
-
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://educacion30.b-cdn.net/wp-content/uploads/2021/11/english-british-england-language-education-concept-1-min-978x652.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Idioma Ingles Basico</div>
-            </div>
+            <Card2
+             imageUrl="https://educacion30.b-cdn.net/wp-content/uploads/2021/11/english-british-england-language-education-concept-1-min-978x652.jpg "
+             imageAlt="Idioma Ingles Basico"
+             Descripcion="Idioma Ingles Basico"
+             DescripcionMobile="Idioma Ingles Basico"
+             />
+           
             </div>   
             </div>
 
              <Titulo title="Habilidades Blandas"/> 
-
+             
              <div className="flex justify-center m-14">
-            <div className="grid grid-cols-3">
+             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
 
-                <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://www.obsbusiness.school/sites/obsbusiness.school/files/images/blog_obs_tendencias_e_innovacion_competencias_digitales_aprendizaje_g.purita_0.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Habilidades de aprendizaje continuo para mantenerse actualizado con las últimas tecnologías y tendencias en el campo</div>
-            </div>
+            <Card2
+             imageUrl="https://www.obsbusiness.school/sites/obsbusiness.school/files/images/blog_obs_tendencias_e_innovacion_competencias_digitales_aprendizaje_g.purita_0.jpg "
+             imageAlt="Habilidad de comunicación"
+             Descripcion="Capacidad para actualizarse constantemente en nuevas tecnologías y tendencias del campo"
+             DescripcionMobile="Habilidad para actualizarse en nuevas tecnologías y tendencias"
+             />
 
+            
+               
+            <Card2
+             imageUrl="https://i0.wp.com/jalacoste.com/wp-content/uploads/2017/03/Habilidades_de_Comunicacion.jpg?resize=550%2C367&ssl=1 "
+             imageAlt="trabajo en equipo"
+             Descripcion="Comunicación técnica efectiva para colaborar en equipo con diferentes niveles de conocimiento."
+             DescripcionMobile="Comunicación técnica efectiva en equipo"
+             />
 
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg " src="https://i0.wp.com/jalacoste.com/wp-content/uploads/2017/03/Habilidades_de_Comunicacion.jpg?resize=550%2C367&ssl=1"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Habilidades de comunicación efectiva para trabajar en equipo y explicar técnicamente conceptos complejos a personas con diferentes niveles de conocimiento</div>
-            </div>
+           
+            <Card2
+             imageUrl="https://web-static.wrike.com/blog/content/uploads/2016/06/La-importancia-de-la-gestio-n-de-proyectos-preguntas-y-respuestas-con-Robert-Kelly.jpg?av=9cca9b92e52017d677996195ca78c04a "
+             imageAlt="Gestion de Proyectos"
+             Descripcion="Habilidades básicas de gestión de proyectos para trabajar en equipo en proyectos de desarrollo de software."
+             DescripcionMobile="Gestión de proyectos en desarrollo de software."
+             />
 
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://web-static.wrike.com/blog/content/uploads/2016/06/La-importancia-de-la-gestio-n-de-proyectos-preguntas-y-respuestas-con-Robert-Kelly.jpg?av=9cca9b92e52017d677996195ca78c04a"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Habilidades básicas de gestión de proyectos para trabajar en equipo en proyectos de desarrollo de software</div>
-            </div>
+            
             </div>
             </div>
 
@@ -74,27 +77,22 @@ return (
 
             <Titulo title="Metodologias"/> 
             <div className="flex justify-center m-14">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
 
+             <Card2
+             imageUrl="https://blog.hubspot.es/hubfs/media/metodologiaagile.png "
+             imageAlt="Metodologia Agile"
+             Descripcion="Metodología ágil para desarrollar software de manera eficiente en proyectos de gran escala"
+             DescripcionMobile="Desarrollo ágil de software para proyectos eficientes"
+             />
+
+             <Card2
+             imageUrl="http://www.prozessgroup.com/wp-content/uploads/2016/10/ProcesosScrumPost.jpg "
+             imageAlt="Metodologia Scrum"
+             Descripcion="Metodología Scrum para entrega continua de software mediante trabajo en equipo en sprints cortos."
+             DescripcionMobile="Scrum: entrega continua en sprints cortos."
+             />
             
-
-            <div className="flex justify-center">
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md ">
-            <a href="#">
-                 <img className="rounded-t-lg " src="https://blog.hubspot.es/hubfs/media/metodologiaagile.png"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Metodologia Agile. Se utiliza en proyectos de desarrollo de software de gran envergadura y proporciona una mayor eficiencia en la gestión de proyectos.</div>
-            </div>
-            </div>
-
-
-            <div className="flex justify-center"></div>
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="http://www.prozessgroup.com/wp-content/uploads/2016/10/ProcesosScrumPost.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Metodologia Scrum.Una metodología Agile que se enfoca en el trabajo en equipo y la entrega continua de software funcional. El equipo trabaja en sprints cortos para desarrollar y entregar software. </div>
-            </div>
             </div>
         </div>
 

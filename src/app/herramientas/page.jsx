@@ -19,17 +19,18 @@ const Herramientas =()=>{
 
             
 
-        <div className="flex justify-center m-14 ">
-            <Cards
-  imageUrl='https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg'
-  imageAlt='Javascript'
-  title='Javascript'
-  description='JavaScript es un lenguaje de programación interpretado, dialecto del estándar 
-   ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado 
-   y dinámico.JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas
-    web interactivas.'
-   linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
-/>
+    <div className="flex justify-center m-14 ">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
+        <Cards
+        imageUrl='https://soyhorizonte.com/wp-content/uploads/2020/10/Javascript-by-SoyHorizonte.jpg'
+        imageAlt='Javascript'
+        title='Javascript'
+        description='JavaScript es un lenguaje de programación interpretado, dialecto del estándar 
+        ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado 
+        y dinámico.JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas
+          web interactivas.'
+        linkUrl='https://developer.mozilla.org/es/docs/Web/JavaScript'
+      />
 
 
 <Cards 
@@ -52,12 +53,13 @@ const Herramientas =()=>{
     en React.'
   linkUrl='https://nextjs.org/docs/api-reference/create-next-app'
 />
-
+</div>
 </div>
 
         <div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
 
 <div className="flex justify-center m-14 ">
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
             <Cards
   imageUrl='https://cronuts.digital/wp-content/uploads/2020/04/Artboard-11-1024x724.png'
   imageAlt='Css'
@@ -86,12 +88,14 @@ const Herramientas =()=>{
     una serie de clases predefinidas para elementos como botones o tablas.'
   linkUrl='https://tailwindcss.com/docs/installation'
 />
-
+</div>
 </div>
 
 <div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
 
 <div className="flex justify-center m-14">
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
+  
             <Cards
   imageUrl='https://www.freecodecamp.org/news/content/images/2022/07/git-github.png'
   imageAlt='Git'
@@ -121,12 +125,13 @@ const Herramientas =()=>{
    Eso significa que, conforme avanzas en la creación de tu web, puedes desplegar cada nueva versión de forma totalmente automatizada.'
   linkUrl='https://vercel.com/'
 />
-
+</div>
 </div>
 
 <div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
 
 <div className="flex justify-center m-14 ">
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
             <Cards
   imageUrl='https://significado.com/img/tecnologia/linux-pinguino-tecnologia.jpg'
   imageAlt='Gnu'
@@ -154,18 +159,21 @@ const Herramientas =()=>{
   linkUrl='https://code.visualstudio.com/'
 />
 </div>
+</div>
 
 <div className="flex justify-center text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
   <h1 className="text-2xl font-medium text-center hover:underline">Proximamente Nuevas Herramientas...</h1>
-  
 </div>
-    <p className="text-base leading-relaxed text-center text-gray-900 hover:underline">"Actualmente se siguen aprendiendo 
-    nuestros conocimientos en diferentes entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. Entre los 
-    cuales destacan los siguientes mostrados en este apartado. Dichos conocimientos están actualmente en formación y estamos ansiosos de poder
-     compartirlos con ustedes próximamente. Por favor, no dude en ponerse en contacto con nosotros si tiene alguna pregunta o si está interesado 
-     en trabajar juntos en un futuro proyecto.".
-     </p>
+
+<div className="text-base leading-relaxed text-center text-gray-900 mx-auto max-w-screen-sm p-4">
+  <p className="text-justify">
+    "Actualmente se siguen aprendiendo nuestros conocimientos en diferentes entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. Entre los cuales destacan los siguientes mostrados en este apartado. Dichos conocimientos están actualmente en formación y estamos ansiosos de poder compartirlos con ustedes próximamente. Por favor, no dude en ponerse en contacto con nosotros si tiene alguna pregunta o si está interesado en trabajar juntos en un futuro proyecto."
+  </p>
+</div>
+
+
      <div className="flex justify-center m-14 ">
+     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
             <Cards
   imageUrl='https://www.qualitydevs.com/wp-content/uploads/2021/05/PHP-Quality-Devs-1-1288x724.jpg'
   imageAlt='php'
@@ -185,6 +193,7 @@ const Herramientas =()=>{
     linkUrl='https://www.typescriptlang.org/'
 />
 
+</div>
 </div>
         </>
     )
