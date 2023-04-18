@@ -18,28 +18,7 @@ return (
             
         
 
-        <section className="container mx-auto py-10 px-4">
-            <Titulo title="Contactame"/> 
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
-
-            <div>
-                    <img className="w-[400px]" src="./326966218_885398379440507_6325353439616057798_n (1).jpg" alt=""/>
-                </div>
-        <div  className="flex items-center justify-between w-[500px]">
-                    <div className="flex flex-col gap-6">
-                
-                </div>
-                <div className="flex fap-4 items-center font-medium">
-                <FcManager className="m-2 text-[22px] text-[#0034efdd]" /> <p>🫡Para mi es un gran placer poder brindar mis servicios a su Empresa 
-                    y su persona👨‍💻. Aun siendo un estudiante y nuevo en el campo, me esfuerzo constantemente por aprender📖 y mejorar mis habilidades 
-                    para poder brindar un servicio de calidad. Si tiene algún proyecto📃 o necesidad, no dude en contactarme. Estoy dispuesto a trabajar 
-                    y colaborar para alcanzar sus objetivos.🤝</p>
-                        </div>
-                </div>
-                </div>
-                </section>
-
+       
                 
 
                  <section className="m-10 bg-white ">

@@ -1,5 +1,6 @@
 import Cards from "@/src/components/Cards"
 import Image from "@/src/components/Image"
+import Separador from "@/src/components/shared/Separador"
 
 
 
@@ -33,30 +34,30 @@ const Herramientas =()=>{
       />
 
 
-<Cards 
-  imageUrl='https://www.patterns.dev/img/reactjs/react-logo@3x.svg'
-  imageAlt='React.js'
-  title='React.js'
-  description='React es una biblioteca Javascript de código abierto diseñada para 
-  crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones 
-  en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto 
-  hay más de mil desarrolladores libres. '
-  linkUrl='https://reactjs.org/'
-/>
-<Cards 
-  imageUrl='https://nextjs.org/static/blog/next-13/twitter-card.png'
-  imageAlt='Next.js'
-  title='Next.js'
-  description='Next.js es un marco web de desarrollo front-end de React de
-   código abierto creado por Vercel que habilita funcionalidades como la representación 
-   del lado del servidor y la generación de sitios web estáticos para aplicaciones web basadas
-    en React.'
-  linkUrl='https://nextjs.org/docs/api-reference/create-next-app'
-/>
+      <Cards 
+        imageUrl='https://www.patterns.dev/img/reactjs/react-logo@3x.svg'
+        imageAlt='React.js'
+        title='React.js'
+        description='React es una biblioteca Javascript de código abierto diseñada para 
+        crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones 
+        en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto 
+        hay más de mil desarrolladores libres. '
+        linkUrl='https://reactjs.org/'
+      />
+      <Cards 
+        imageUrl='https://nextjs.org/static/blog/next-13/twitter-card.png'
+        imageAlt='Next.js'
+        title='Next.js'
+        description='Next.js es un marco web de desarrollo front-end de React de
+        código abierto creado por Vercel que habilita funcionalidades como la representación 
+        del lado del servidor y la generación de sitios web estáticos para aplicaciones web basadas
+          en React.'
+        linkUrl='https://nextjs.org/docs/api-reference/create-next-app'
+      />
 </div>
 </div>
 
-        <div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
+        <Separador/>
 
 <div className="flex justify-center m-14 ">
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
@@ -91,7 +92,7 @@ const Herramientas =()=>{
 </div>
 </div>
 
-<div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
+    <Separador/>
 
 <div className="flex justify-center m-14">
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
@@ -128,7 +129,7 @@ const Herramientas =()=>{
 </div>
 </div>
 
-<div className="bg-teal-400 m-5 h-[23px] w-full translate-y-2 translate-x-2"> </div>
+<Separador/>
 
 <div className="flex justify-center m-14 ">
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
@@ -161,27 +162,29 @@ const Herramientas =()=>{
 </div>
 </div>
 
-<div className="flex justify-center text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-  <h1 className="text-2xl font-medium text-center hover:underline">Proximamente Nuevas Herramientas...</h1>
-</div>
 
-<div className="text-base leading-relaxed text-center text-gray-900 mx-auto max-w-screen-sm p-4">
-  <p className="text-justify">
-    "Actualmente se siguen aprendiendo nuestros conocimientos en diferentes entornos y herramientas para poder brindar un mayor servicio a los usuarios y entidades. Entre los cuales destacan los siguientes mostrados en este apartado. Dichos conocimientos están actualmente en formación y estamos ansiosos de poder compartirlos con ustedes próximamente. Por favor, no dude en ponerse en contacto con nosotros si tiene alguna pregunta o si está interesado en trabajar juntos en un futuro proyecto."
-  </p>
-</div>
+  <div className="flex justify-center text-center py-8 lg:py-16 px-4 mx-auto max-w-screen-md relative z-10">
+    <h1 className="text-2xl font-medium text-center hover:underline">Aprendizaje Continuo en Desarrollo.</h1>
+  </div>
+
+  <div className="text-base leading-relaxed text-center text-gray-900 mx-auto max-w-screen-sm p-4 mb-10 md:mb-0">
+    <p className="text-justify text-xl">
+    Estamos en constante aprendizaje y actualización en diferentes lenguajes de programación para brindar un mejor servicio a nuestros usuarios y clientes
+    </p>
+  </div>
+
 
 
      <div className="flex justify-center m-14 ">
      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
-            <Cards
-  imageUrl='https://www.qualitydevs.com/wp-content/uploads/2021/05/PHP-Quality-Devs-1-1288x724.jpg'
-  imageAlt='php'
-  title='Php'
-  description='PHP es un lenguaje de programación interpretado​ del lado del servidor y de uso general que se
-   adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf
-    en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group​'
-  linkUrl='https://www.php.net/manual/es/intro-whatis.php'
+   <Cards
+  imageUrl='https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png'
+  imageAlt='node.js'
+  title='Node.js'
+  description='Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la 
+  capa del servidor basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una
+   arquitectura orientada a eventos y basado en el motor V8 de Google​'
+  linkUrl='https://nodejs.org/es'
 />
 <Cards
   imageUrl='https://pantheon.io/sites/default/files/field/image/TypeScriptImage.jpeg'
@@ -192,7 +195,13 @@ const Herramientas =()=>{
     diseñador de C# y creador de Delphi y Turbo Pascal, ha trabajado en el desarrollo de TypeScript.'
     linkUrl='https://www.typescriptlang.org/'
 />
-
+<Cards
+  imageUrl='https://m.com-magazin.de/img/1/5/8/6/6/7/8/20210726UmgangMitJava_teas_quelleOracleCom_w1200_h629.jpg'
+  imageAlt='Java'
+  title='Java'
+  description='Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems'
+    linkUrl='https://www.java.com/es/'
+/>
 </div>
 </div>
         </>
