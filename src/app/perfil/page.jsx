@@ -90,7 +90,7 @@ return (
              imageUrl="http://www.prozessgroup.com/wp-content/uploads/2016/10/ProcesosScrumPost.jpg "
              imageAlt="Metodologia Scrum"
              Descripcion="Metodología Scrum para entrega continua de software mediante trabajo en equipo en sprints cortos."
-             DescripcionMobile="Scrum: entrega continua en sprints cortos."
+             DescripcionMobile="Scrum: Entrega continua en sprints cortos."
              />
             
             </div>
@@ -100,29 +100,30 @@ return (
         <Titulo title="Experiencia Laboral"/> 
 
         <div className="flex justify-center m-14">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
 
-                <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Tecnico en reparacion de computadoras y soporte de software.</div>
-            </div>
+            <Card2
+             imageUrl="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg "
+             imageAlt="Reparador de computadoras"
+             Descripcion="Tecnico en reparacion de computadoras y soporte de software"
+             DescripcionMobile="Tecnico de equipo de computo."
+             />
 
+            <Card2
+             imageUrl="https://thumbs.dreamstime.com/z/c%C3%A1mara-cctv-seguridad-hud-106798522.jpg"
+             imageAlt="Asistente de CCTV"
+             Descripcion="Asistente de soporte, tecnico e instalación de CCTV"
+             DescripcionMobile="Asistente de soporte de CCTV."
+             /> 
 
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg " src="https://thumbs.dreamstime.com/z/c%C3%A1mara-cctv-seguridad-hud-106798522.jpg"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Asistente de soporte, tecnico e instalación de CCTV </div>
-            </div>
+            <Card2
+             imageUrl="https://www.prensalibre.com/wp-content/uploads/2021/12/CBC2_NOTA_CSTUDIO_0000_Layer-2-1.jpeg?quality=52"
+             imageAlt="Area Operacional CBC"
+             Descripcion="Area de Producción y operaciones"
+             DescripcionMobile="Area de Producción y operaciones"
+             /> 
 
-            <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-            <a href="#">
-                 <img className="rounded-t-lg" src="https://www.prensalibre.com/wp-content/uploads/2021/12/CBC2_NOTA_CSTUDIO_0000_Layer-2-1.jpeg?quality=52"  />
-             </a>
-            <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 "> Area de Producción y operaciones</div>
-            </div>
+           
 
             </div>
         </div>
@@ -131,36 +132,37 @@ return (
         <Titulo title="Tiempo Libre"/> 
 
 <div className="flex justify-center m-14">
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
 
-        <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-    <a href="#">
-         <img className="rounded-t-lg" src="https://cdn-3.expansion.mx/dims4/default/751df04/2147483647/strip/true/crop/1254x836+0+0/resize/1800x1200!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F23%2F02%2F062b88e04f0b9ddb490703868f80%2Fideas-proyectos.jpg"  />
-     </a>
-    <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 hover:underline">Practicar en proyectos personales</div>
-    </div>
+        <Card2
+         imageUrl="https://cdn-3.expansion.mx/dims4/default/751df04/2147483647/strip/true/crop/1254x836+0+0/resize/1800x1200!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F23%2F02%2F062b88e04f0b9ddb490703868f80%2Fideas-proyectos.jpg"
+         imageAlt="Programar"
+         Descripcion="Practicar en proyectos personales"
+         DescripcionMobile="Practicar en proyectos personales"
+         /> 
 
+        <Card2
+         imageUrl="https://www.exact.com.pe/assets/uploads/noticias/la-importancia-del-control-de-documentos.jpg"
+         imageAlt="Leer"
+         Descripcion="Leer blogs,libros de programacion y documentación"
+         DescripcionMobile="Leer y adquirir conocimientos"
+         />     
 
-    <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-    <a href="#">
-         <img className="rounded-t-lg " src="https://www.exact.com.pe/assets/uploads/noticias/la-importancia-del-control-de-documentos.jpg"  />
-     </a>
-    <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 hover:underline">Leer blogs y documentación</div>
-    </div>
+        <Card2
+         imageUrl="https://formaciononline.eu/wp-content/uploads/2019/01/cursos-online-gratuitos.png"
+         imageAlt="Adquirir conocimientos"
+         Descripcion="Tomar cursos y certificaciones en línea"
+         DescripcionMobile="Tomar cursos y certificaciones en línea"
+         />   
+    
 
-    <div className="rounded-t-lg max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-    <a href="#">
-         <img className="rounded-t-lg" src="https://formaciononline.eu/wp-content/uploads/2019/01/cursos-online-gratuitos.png"  />
-     </a>
-    <div className="mb-2 text-2xl font-bold tracking-tight text-gray-900 hover:underline">Tomar cursos y certificaciones en línea</div>
     </div>
     </div>
-</div>
-        </div>
+ </div>
 
    
 )
 
 }
 
-export default Perfil
+export default Perfil;
