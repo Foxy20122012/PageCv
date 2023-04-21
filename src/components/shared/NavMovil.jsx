@@ -28,12 +28,7 @@ const  NavMobil =()=>{
                         <p className="text-black">Home</p>
                     </button>
 
-                    <button >
-                        <RiPieChart2Fill  className=" text-2xl text-center text-black"/>
-                    </button>
-                    <button >
-                        <AiOutlineMessage  className=" text-2xl text-center text-black"/>
-                    </button>
+                    
                     <button onClick={hookMenu}  
                         className=" text-2xl text-center text-black ">
                         {dropdownMenu ? <MdOutlineCloseFullscreen/> : <RiAlignJustify/>}
