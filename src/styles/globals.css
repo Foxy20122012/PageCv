@@ -51,3 +51,25 @@
     max-height: 150px; /* Ajusta el valor según lo que necesites */
   }
   
+
+  @media (max-width: 768px) {
+    .navbar {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    nav {
+      max-width: 960px; /* adjust this to the desired width */
+      margin: 0 auto;
+    }
+  }
+  
+  

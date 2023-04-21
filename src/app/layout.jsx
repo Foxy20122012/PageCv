@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Navigation from '../components/shared/Navigation'
+import NavMobil from '../components/shared/NavMovil'
 
 export default function RootLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <Navigation/>
+        <NavMobil/>
       
         {children}
       </body>
