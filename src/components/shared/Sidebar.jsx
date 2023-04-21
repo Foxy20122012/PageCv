@@ -8,6 +8,7 @@ const Sidebar =(props)=>{
     const {dropdownMenu}= props;
 
     return(
+        <div className="sidebar">
         <div className={`bg-[#1F1D2B] fixed lg:left-0 top-0 w-28 h-full container flex flex-col justify-between py-6 rounded-tr-xl rounded-br-xl z-50  ${dropdownMenu ? "left-0": "-left-full"}`}>
             
        <div>
@@ -58,6 +59,7 @@ const Sidebar =(props)=>{
                     </a>
                 </li>
             </ul>
+         </div>
          </div>
     )
 }

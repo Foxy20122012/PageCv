@@ -5,12 +5,12 @@ const Navigation =()=>{
     return(
 
         
-        <>
+        <div class="navbar">
            
              
 
              
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 ">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="https://www.linkedin.com/in/miguel-enrique-alvarez-merlos-9b6703248" class="flex items-center">
             <img  src="/326966218_885398379440507_6325353439616057798_n (1).jpg" class="h-6 mr-3 sm:h-9 rounded" alt="Flowbite Logo" />
@@ -58,7 +58,7 @@ const Navigation =()=>{
 
 
 
-            </>
+            </div>
         
 
         

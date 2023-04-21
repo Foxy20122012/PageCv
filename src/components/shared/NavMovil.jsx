@@ -18,22 +18,24 @@ const  NavMobil =()=>{
     }
 
     return (
-        <section>
+        <section className="nav">
             <main>
                 <Sidebar dropdownMenu={dropdownMenu}/>
-                <nav className="bg-[#1F1D2B] lg:hidden fixed w-full bottom-0 left-0 py-4 px-8 flex items-center justify-between rounded-tr-xl rounded-tl-xl">
+                <nav className="bg-white sm:hidden flex fixed w-full bottom-0 left-0 py-4 px-14  items-center justify-between rounded-tr-xl rounded-tl-xl border-black border-4">
                     
+                     <button className="flex justify-center grid-cols-1" onClick={() => window.location.href = '/'}>
+                        <RiUserLine  className=" text-2xl text-center text-black" />
+                        <p className="text-black">Home</p>
+                    </button>
+
                     <button >
-                        <RiUserLine  className=" text-2xl text-center text-cyan-100 "/>
+                        <RiPieChart2Fill  className=" text-2xl text-center text-black"/>
                     </button>
                     <button >
-                        <RiPieChart2Fill  className=" text-2xl text-center text-cyan-100"/>
-                    </button>
-                    <button >
-                        <AiOutlineMessage  className=" text-2xl text-center text-cyan-100"/>
+                        <AiOutlineMessage  className=" text-2xl text-center text-black"/>
                     </button>
                     <button onClick={hookMenu}  
-                        className=" text-2xl text-center text-cyan-50 ">
+                        className=" text-2xl text-center text-black ">
                         {dropdownMenu ? <MdOutlineCloseFullscreen/> : <RiAlignJustify/>}
                     </button>
                 </nav>
