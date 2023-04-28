@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Sidebar from '../shared/Sidebar';
 
 
-import { RiAlignJustify, RiUserLine, RiEditBoxLine, RiPieChart2Fill } from "react-icons/ri";
+import { RiAlignJustify,  RiHome6Line} from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
 import { MdOutlineCloseFullscreen } from "react-icons/md";
 
@@ -21,10 +21,10 @@ const  NavMobil =()=>{
         <section className="nav">
             <main>
                 <Sidebar dropdownMenu={dropdownMenu}/>
-                <nav className="bg-white sm:hidden flex fixed w-80 bottom-0 left-0 py-4 px-14  items-center justify-between rounded-tr-xl rounded-tl-xl border-black border-4">
+                <nav className="bg-white sm:hidden flex fixed w-96 bottom-0 left-0 py-4 px-14  items-center justify-between rounded-tr-xl rounded-tl-xl border-black border-4">
                     
                      <button className="flex justify-center grid-cols-1" onClick={() => window.location.href = '/'}>
-                        <RiUserLine  className=" text-2xl text-center text-black" />
+                        <RiHome6Line  className=" text-2xl text-center text-black" />
                         <p className="text-black">Home</p>
                     </button>
 

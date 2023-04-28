@@ -43,14 +43,14 @@ const Home = () => {
     <section className="container mx-auto py-10 px-4">
             <Titulo title="Acerca de mi"/> 
         
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-[60px]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-[60px] ">
 
                 <div>
-                    <img className="w-[400px]" src="./326966218_885398379440507_6325353439616057798_n (1).jpg" alt="Foto Cv"/>
+                    <img className="w-[400px] " src="./326966218_885398379440507_6325353439616057798_n (1).jpg" alt="Foto Cv"/>
                 </div>
 
-            <div>
-                <div  className="flex items-center justify-between w-[500px]">
+            <div >
+                <div  className="flex items-center justify-between w-[500px] ">
                     <div className="flex flex-col gap-6">
                         <div className="flex fap-4 items-center font-medium">
                            <FcManager className="m-2 text-[22px] text-[#0034efdd]" /> Nombre
@@ -72,7 +72,7 @@ const Home = () => {
                         </div>
                         </div>
 
-                            <div className="flex flex-col gap-6 text-gray-600  ">
+                            {/* <div className="flex flex-col gap-6 text-gray-600  ">
                                 <div className="flex fap-4 items-center font-medium m-2">:</div>
                                 <div className="flex fap-4 items-center font-medium m-2 ">:</div>
                                 <div className="flex fap-4 items-center font-medium m-2 ">:</div>
@@ -80,7 +80,7 @@ const Home = () => {
                                 <div className="flex fap-4 items-center font-medium m-2 ">:</div>
                                 <div className="flex fap-4 items-center font-medium m-2">:</div>
                             
-                            </div>
+                            </div> */}
 
                             <div className="flex flex-col gap-6 text-gray-600  ">
                                 <div className="flex fap-4 items-center font-medium m-2">Enrique Alvarez Merlos</div>
