@@ -18,9 +18,9 @@ return (
             <div className="flex justify-center m-14">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-center">
              <Card2
-             imageUrl="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg"
-             imageAlt="Repacion de computadoras"
-             Descripcion="Tecnico en reparacion de computadoras y soporte de software"
+             imageUrl="https://nearshoreamericas.com/wp-content/uploads/2021/11/oracle.jpg"
+             imageAlt="ORACLE ONE"
+             Descripcion="Alumno One Oracle Developer Backend Java"
              DescripcionMobile="Tecnico en reparacion de computadoras"
              />
                 <Card2
@@ -36,7 +36,26 @@ return (
              Descripcion="Idioma Ingles Basico"
              DescripcionMobile="Idioma Ingles Basico"
              />
-           
+            <Card2
+             imageUrl="https://aprende.com/wp-content/uploads/2022/05/herramientas-reparacion-computadoras.jpg"
+             imageAlt="Repacion de computadoras"
+             Descripcion="Tecnico en reparacion de computadoras y soporte de software"
+             DescripcionMobile="Tecnico en reparacion de computadoras"
+             />
+
+            <Card2
+             imageUrl="https://www.browserstack.com/blog/content/images/size/w1000/2020/08/API-Blog-Hero-banner-@2x.png"
+             imageAlt="Web Api"
+             Descripcion="Web api Codigo facilito"
+             DescripcionMobile="Web api Codigo facilito"
+             />  
+
+            <Card2
+             imageUrl="https://res.cloudinary.com/practicaldev/image/fetch/s--a67XH0QN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/xndmxrfhliweofif9jty.png"
+             imageAlt="Frontend Developer"
+             Descripcion="Frontend Developer"
+             DescripcionMobile="Frontend Developer"
+             />          
             </div>   
             </div>
 
