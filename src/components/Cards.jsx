@@ -1,7 +1,7 @@
 
 const Cards = (props) => {
   return (
-    <div className="m-5 max-w-sm">
+    <div className="m-5 max-w-sm ">
       <div className="bg-white border border-gray-200 rounded-lg shadow-md">
         <img
           className="w-full h-64 object-fit rounded-t-lg"

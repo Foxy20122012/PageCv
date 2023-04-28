@@ -18,7 +18,7 @@ const  NavMobil =()=>{
     }
 
     return (
-        <section className="nav">
+        <section className="nav ">
             <main>
                 <Sidebar dropdownMenu={dropdownMenu}/>
                 <nav className="bg-white sm:hidden flex fixed w-96 bottom-0 left-0 py-4 px-14  items-center justify-between rounded-tr-xl rounded-tl-xl border-black border-4">

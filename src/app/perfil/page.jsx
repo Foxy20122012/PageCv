@@ -21,7 +21,7 @@ return (
              imageUrl="https://nearshoreamericas.com/wp-content/uploads/2021/11/oracle.jpg"
              imageAlt="ORACLE ONE"
              Descripcion="Alumno One Oracle Developer Backend Java"
-             DescripcionMobile="Tecnico en reparacion de computadoras"
+             DescripcionMobile="Alumno One Oracle Developer Backend Java"
              />
                 <Card2
              imageUrl="https://escueladeposgrado.edu.pe/wp-content/uploads/2020/11/Importancia-de-los-Sistema-de-Informacion-en-una-empresa-scaled.jpg"
