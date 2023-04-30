@@ -1,8 +1,20 @@
+'use client'
+
+/*HOOKS */
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '@/src/hooks/useHasMounted'
 
 import Image from '../../components/Image'
 import Cards from "@/src/components/Cards"
 
 const Proyectos=()=>{
+    const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner"></div>
+      </div>;
+
+      }
     return(
         <>
             <Image  className="bg-white" imageUrl='https://previews.123rf.com/images/artinspiring/artinspiring1909/artinspiring190900998/130370493-frontend-development-web-banner-concept-website-interface.jpg'>

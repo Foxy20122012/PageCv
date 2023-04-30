@@ -1,3 +1,9 @@
+'use client'
+
+/*HOOKS */
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '@/src/hooks/useHasMounted'
+
 import Cards from "@/src/components/Cards"
 import Image from "@/src/components/Image"
 import Separador from "@/src/components/shared/Separador"
@@ -6,6 +12,13 @@ import Separador from "@/src/components/shared/Separador"
 
 
 const Herramientas =()=>{
+  const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner"></div>
+      </div>;
+
+      }
     return (
         <>
 

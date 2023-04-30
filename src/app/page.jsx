@@ -1,7 +1,16 @@
-import React from 'react'
+'use client'
+import '../styles/globals.css'
+
+/*HOOKS */
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '../hooks/useHasMounted'
+
+/*Componentes */
 import Button from '../components/Button'
 import Image from '../components/Image'
 import Titulo from "@/src/components/Titulo"
+
+/*ICONOS */
 import {FcManager} from 'react-icons/fc'
 import { BiMailSend } from "react-icons/bi";
 import { BsBook } from "react-icons/bs";
@@ -14,7 +23,17 @@ import { BiMessageRounded } from "react-icons/bi";
 
 
 
+
+
+
 const Home = () => {
+    const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner"></div>
+      </div>;
+
+      }
     return (
 <>
     <section>
@@ -22,14 +41,18 @@ const Home = () => {
             <Image className="bg-white" imageUrl='https://img.freepik.com/vector-premium/banner-conceptos-palabra-front-end-programacion-aplicaciones-web_106317-84.jpg?w=2000'>
                <div className='text-center m-56'>
                      <h1 className="text-5xl m-20 text-center justify-center ">¡Bienvenidos a mi sitio web!</h1>
-                    <h2 className='text-5xl m-20 text-center justify-center '>Frontend Developer</h2>
+                    
                
                 <div className='bg-[#0A4FF9] h-[3px] w-[120px]'></div> 
                     <h2  className='text-[center] m-10 text-2xl'>Hola soy Enrique Merlos </h2>
                    <p className='text-center m-10  '>Mucho gusto</p> 
                    <p className='text-center m-10  '>Soy un estudiante de Ingeniería en Sistemas y Desarrollador Web.
                    He estado estudiando y practicando las habilidades necesarias para ser un desarrollador frontend</p>
-                <Button >Leer mas</Button>
+              
+                   <Button>
+                     Leer Mas
+                   </Button>
+
                 </div>
               
             </Image>
@@ -48,7 +71,7 @@ const Home = () => {
                 <div>
                     <img className="w-[400px] " src="./326966218_885398379440507_6325353439616057798_n (1).jpg" alt="Foto Cv"/>
                 </div>
-
+            
             <div >
                 <div  className="flex items-center justify-between w-[500px] ">
                     <div className="flex flex-col gap-6">
@@ -111,7 +134,7 @@ const Home = () => {
          
                     </div> 
                 </div>
-                </section>
+        </section>
 </>
     )
 }
