@@ -5,7 +5,7 @@ const Navigation =()=>{
     return(
 
         
-        <div class="navbar">
+        <seccion class="navbar bg-white border-gray-200 dark:bg-gray-900 fixed top-0 w-full z-50">
            
              
 
@@ -58,7 +58,7 @@ const Navigation =()=>{
 
 
 
-            </div>
+            </seccion>
         
 
         

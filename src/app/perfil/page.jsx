@@ -1,9 +1,23 @@
+'use client'
+
+/*HOOKS */
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '@/src/hooks/useHasMounted'
+
 import Card2 from "@/src/components/Card2"
 import Image from "@/src/components/Image"
 import Titulo from "@/src/components/Titulo"
 
 const Perfil=()=>{
+    const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner"></div>
+      </div>;
+
+      }
 return (
+    
     <div className="text-center">
             <Image  className="bg-white" imageUrl='https://www.queestudiar.org/wp-content/uploads/2020/06/cursos.jpg'>
                 <h1 className="text-5xl m-20">Mi camino hacia el crecimiento continuo. Siempre en evolución</h1>

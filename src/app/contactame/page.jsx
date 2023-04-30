@@ -1,3 +1,8 @@
+'use client'
+/*HOOKS*/
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '@/src/hooks/useHasMounted'
+
 import Image from "@/src/components/Image";
 import Titulo from "@/src/components/Titulo";
 import { FcManager } from "react-icons/fc";
@@ -8,6 +13,15 @@ import { BsFillFileEarmarkPersonFill } from "react-icons/bs";
 import { BiAlignMiddle } from "react-icons/bi";
 
 const Contactame = () => {
+  const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner">
+          
+        </div>
+      </div>;
+
+      }
   return (
     <>
       <Image
