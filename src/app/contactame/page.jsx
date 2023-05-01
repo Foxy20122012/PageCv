@@ -84,7 +84,7 @@ const Contactame = () => {
                 Asunto
                 <BiAlignMiddle className="flex mx-auto text-[#3fccebfa]" />
               </label>
-              <input
+              <input 
                 type="text"
                 name="text"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
