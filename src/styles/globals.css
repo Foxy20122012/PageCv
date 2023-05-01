@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/*Este es el spinner de carga que se renderiza el useHasMounted */
 .loader {
   position: fixed;
   top: 50%;
@@ -53,12 +56,12 @@
   }
 }
 
-
-
-
-
-
-
+/*responsive de Home del texto de la parte de acerca de mi*/
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+}
 
 
 
