@@ -43,7 +43,7 @@ const Contactame = () => {
             ¿Tienes un problema técnico o necesitas ayuda con algún proyecto en
             particular? ¡Hazlo saber! Estoy aquí para ayudarte.
           </p>
-          <form action="./form.php" method="POST" className="space-y-8 ">
+          <form action="https://formsubmit.co/umbrellamaximus43@gmail.com" method="POST" className="space-y-8 ">
             <div>
               <label
                 for="name"
@@ -69,7 +69,7 @@ const Contactame = () => {
                 <SiWebmoney className="flex mx-auto text-[#3fccebfa]" />
               </label>
               <input
-                type="text"
+                type="email"
                 name="email"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 textt-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
                 placeholder="Usuario@gmail.com"
@@ -86,7 +86,7 @@ const Contactame = () => {
               </label>
               <input
                 type="text"
-                name="asunto"
+                name="text"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
                 placeholder="Permítenos saber en qué te podemos ayudar"
                 required
@@ -101,7 +101,7 @@ const Contactame = () => {
                 <BsFillEnvelopeFill className="flex mx-auto text-[#3fccebfa]" />
               </label>
               <textarea
-                name="textarea"
+                name="text"
                 rows="6"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
                 placeholder="Deja un comentario..."

@@ -16,7 +16,7 @@ const Sidebar =(props)=>{
         <ul className=" pl-4">
                 <li>
                 <a href="https://www.linkedin.com/in/miguel-enrique-alvarez-merlos-9b6703248" class="flex items-center">
-                    <img  src="/326966218_885398379440507_6325353439616057798_n (1).jpg" class=" mr-6 h-24 rounded flex justify-center" alt="Flowbite Logo" />   
+                    <img  src="https://avatars.githubusercontent.com/u/115357922?v=4" class=" mr-6 h-24 rounded flex justify-center" alt="Flowbite Logo" />   
                 </a>
                     
                 </li>
