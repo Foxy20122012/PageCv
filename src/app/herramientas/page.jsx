@@ -1,3 +1,9 @@
+'use client'
+
+/*HOOKS */
+import React, {useState, useEffect} from 'react'
+import { useHasMounted } from '@/src/hooks/useHasMounted'
+
 import Cards from "@/src/components/Cards"
 import Image from "@/src/components/Image"
 import Separador from "@/src/components/shared/Separador"
@@ -6,16 +12,21 @@ import Separador from "@/src/components/shared/Separador"
 
 
 const Herramientas =()=>{
+  const hasMounted = useHasMounted();
+    if(!hasMounted) {
+        return  <div className="loader">
+        <div className="spinner"></div>
+      </div>;
+
+      }
     return (
         <>
 
 <Image  className="bg-white" imageUrl='https://img.freepik.com/vector-premium/concepto-banner-web-desarrollo-frontend-interfaz-sitio-web_277904-4191.jpg?w=2000'>
-                <h1 className="text-5xl m-20">Bienvenido a mi apartado de Herramientas</h1>
-                <h1 className="text-center m-20 text-2xl  font-medium leading-tight text-[#ffffff] ">"Bienvenido querido usuario,
-                aquí podrás conocer algunos de los lenguajes de programación, entornos de desarrollo, herramientas, frameworks y gestores de bases
-                 de datos con los que he tenido la oportunidad de trabajar y aprender durante mi formación como estudiante de Ingeniería en Sistemas.
-                  Aunque soy un estudiante, estoy comprometido a seguir aprendiendo y mejorando mis habilidades para convertirme en un desarrollador
-                   web cada vez más eficiente. ¡Espero que disfrutes explorando mis habilidades y herramientas!"</h1>
+                <h1 className="sm:text-5xl sm:m-40">Desarrollador web altamente capacitado y comprometido con el 
+                   aprendizaje continuo.
+                </h1>
+                <h1 className="text-center sm:m-40 sm:text-3xl  font-medium leading-tight text-[#ffffff]  "> Conoce las herramientas y tecnologías que puedo utilizar para ayudar a tu empresa a destacar en línea.</h1>
                 </Image>
 
             
