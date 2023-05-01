@@ -112,7 +112,7 @@ const Home = () => {
                             <button className="flex border bg-cyan-500 border-blue-600 text-center items-center rounded m-4 px-4 py-1 
                             hover:bg-cyan-600 hover:text-white gap-2" >
                                 
-                                <a href="https://www.facebook.com/profile.php?id=100040407080122" className='text-center'>
+                                <a href="https://www.linkedin.com/in/miguel-enrique-alvarez-merlos-9b6703248/" className='text-center'>
                                     Linkedin
                                     <AiFillLinkedin/>
                                 </a>
