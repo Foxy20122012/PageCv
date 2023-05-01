@@ -4,8 +4,7 @@ import React, {useState, useEffect} from 'react'
 import { useHasMounted } from '@/src/hooks/useHasMounted'
 
 import Image from "@/src/components/Image";
-import Titulo from "@/src/components/Titulo";
-import { FcManager } from "react-icons/fc";
+
 import { SiWebmoney } from "react-icons/si";
 import { BsFillCursorFill } from "react-icons/bs";
 import { BsFillEnvelopeFill } from "react-icons/bs";
@@ -28,9 +27,8 @@ const Contactame = () => {
         className="bg-white"
         imageUrl="https://img.freepik.com/foto-gratis/dos-hombres-negocios-confia-estrechar-mano-reunion-oficina-exito-trato-saludo-concepto-socio_1423-185.jpg"
       >
-        <h1 className="text-5xl m-20">Bienvenido querido Usuario </h1>
-        <h1 className="Text-center m-20 text-5xl">
-          {" "}
+        <h1 className="sm:text-5xl sm:m-40">Bienvenido querido Usuario </h1>
+        <h1 className="Text-center sm:m-40 sm:text-5xl">
           Gracias por tomarse el tiempo para comunicarse. ¿Cómo puedo ayudarte
           hoy?
         </h1>
@@ -43,9 +41,9 @@ const Contactame = () => {
           </h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
             ¿Tienes un problema técnico o necesitas ayuda con algún proyecto en
-            particular? ¡Haznos saber! Estamos aquí para ayudarte.
+            particular? ¡Hazlo saber! Estoy aquí para ayudarte.
           </p>
-          <form action="./form.php" method="POST" className="space-y-8 ">
+          <form action="https://formsubmit.co/umbrellamaximus43@gmail.com" method="POST" className="space-y-8 ">
             <div>
               <label
                 for="name"
@@ -71,7 +69,7 @@ const Contactame = () => {
                 <SiWebmoney className="flex mx-auto text-[#3fccebfa]" />
               </label>
               <input
-                type="text"
+                type="email"
                 name="email"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 textt-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
                 placeholder="Usuario@gmail.com"
@@ -86,9 +84,9 @@ const Contactame = () => {
                 Asunto
                 <BiAlignMiddle className="flex mx-auto text-[#3fccebfa]" />
               </label>
-              <input
+              <input 
                 type="text"
-                name="asunto"
+                name="text"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
                 placeholder="Permítenos saber en qué te podemos ayudar"
                 required
@@ -103,7 +101,7 @@ const Contactame = () => {
                 <BsFillEnvelopeFill className="flex mx-auto text-[#3fccebfa]" />
               </label>
               <textarea
-                name="textarea"
+                name="text"
                 rows="6"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
                 placeholder="Deja un comentario..."
